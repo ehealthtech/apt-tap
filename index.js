@@ -25,26 +25,7 @@ var events = [
 	// test - the number of the test this assertion belongs to
 	//
 	'assert',
-	
-	// type - this will always be comment
-	// raw - the raw output before it was parsed
-	// test - the nubmer of the test this comment belongs to
-	//
-	'comment',
-	
-	// Same as #assert
-	//
-	'fail',
-	
-	// When  all TAP data is parsed -- essentially a collection
-	// of all other event outputs.
-	//
-	'output',
-	
-	// Same as #assert
-	//
-	'pass',
-	
+
 	// type - this will always be result
 	// name - the name of the result
 	// raw - the raw output before it was parsed
